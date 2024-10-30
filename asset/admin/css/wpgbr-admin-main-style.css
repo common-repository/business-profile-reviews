@@ -1,0 +1,75 @@
+.wpgbr-settings-workspace {
+	font-size: 14px;
+	margin: 20px;
+	padding: 30px;
+	background: #fff;
+}
+.nav-tab.nav-tab-active {
+	box-shadow: none;
+	background: #fff;
+	border-bottom-color: #fff;
+}
+.wpgbr-form-field {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px 0;
+	border-bottom: 1px dashed #ddd;
+	align-items: center;
+}
+.wpgbr-form-label {
+	flex: 0 0 25%;
+	padding-right: 4%;
+}
+.wpgbr-form-field input[type="text"]{
+	width: 25em;
+	margin: 0;
+	padding: 5px 8px;
+	border-radius: 2px;
+}
+.wpgbr-form-field:first-child {
+	padding-top: 0;
+}
+.wpgbr-form-field:last-child {
+	border-bottom: none;
+}
+.wpgbr-tophead {
+    background-color: #fff;
+    border-bottom: 1px solid #cfd9db;
+    padding: 15px 20px;
+    width: 100%;
+    overflow: hidden;
+}
+#wpcontent {
+    padding-left: 0 !important;
+    overflow-x: hidden;
+}
+.wpgbr-tophead-title {
+    display: flex;
+    flex: 1 1 100%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.wpgbr-page-title {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 25px 20px;
+    line-height: 1.3;
+}
+.wpgbr-tophead-title img {
+    margin-right: 10px;
+}
+.admin-feedback {
+    font-weight: 500;
+    margin: 20px 0;
+    color: #1abc9c;
+}
+
+@media screen and (max-width: 782px){
+	.wpgbr-form-field {
+		display: block;
+	}
+	.wpgbr-form-label {
+		margin-bottom: 15px;
+	}
+}
